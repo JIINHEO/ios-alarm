@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83455A4274D0673002A47D3 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83455A3274D0673002A47D3 /* AddAlertViewController.swift */; };
 		E898F52E274CD3B000D05746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898F52D274CD3B000D05746 /* AppDelegate.swift */; };
 		E898F530274CD3B000D05746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898F52F274CD3B000D05746 /* SceneDelegate.swift */; };
-		E898F532274CD3B000D05746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898F531274CD3B000D05746 /* ViewController.swift */; };
 		E898F535274CD3B000D05746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E898F533274CD3B000D05746 /* Main.storyboard */; };
 		E898F537274CD3B200D05746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E898F536274CD3B200D05746 /* Assets.xcassets */; };
 		E898F53A274CD3B200D05746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E898F538274CD3B200D05746 /* LaunchScreen.storyboard */; };
+		E898F542274CD4AF00D05746 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898F541274CD4AF00D05746 /* AlertListViewController.swift */; };
+		E898F545274CD66100D05746 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898F543274CD66100D05746 /* AlertListCell.swift */; };
+		E898F546274CD66100D05746 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E898F544274CD66100D05746 /* AlertListCell.xib */; };
+		E898F548274CD7D300D05746 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898F547274CD7D300D05746 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E83455A3274D0673002A47D3 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 		E898F52A274CD3B000D05746 /* ios-alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E898F52D274CD3B000D05746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E898F52F274CD3B000D05746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E898F531274CD3B000D05746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E898F534274CD3B000D05746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E898F536274CD3B200D05746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E898F539274CD3B200D05746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E898F53B274CD3B200D05746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E898F541274CD4AF00D05746 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		E898F543274CD66100D05746 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		E898F544274CD66100D05746 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		E898F547274CD7D300D05746 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				E898F52D274CD3B000D05746 /* AppDelegate.swift */,
 				E898F52F274CD3B000D05746 /* SceneDelegate.swift */,
-				E898F531274CD3B000D05746 /* ViewController.swift */,
+				E898F541274CD4AF00D05746 /* AlertListViewController.swift */,
+				E83455A3274D0673002A47D3 /* AddAlertViewController.swift */,
+				E898F547274CD7D300D05746 /* Alert.swift */,
+				E898F543274CD66100D05746 /* AlertListCell.swift */,
+				E898F544274CD66100D05746 /* AlertListCell.xib */,
 				E898F533274CD3B000D05746 /* Main.storyboard */,
 				E898F536274CD3B200D05746 /* Assets.xcassets */,
 				E898F538274CD3B200D05746 /* LaunchScreen.storyboard */,
@@ -127,6 +139,7 @@
 			files = (
 				E898F53A274CD3B200D05746 /* LaunchScreen.storyboard in Resources */,
 				E898F537274CD3B200D05746 /* Assets.xcassets in Resources */,
+				E898F546274CD66100D05746 /* AlertListCell.xib in Resources */,
 				E898F535274CD3B000D05746 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E898F532274CD3B000D05746 /* ViewController.swift in Sources */,
 				E898F52E274CD3B000D05746 /* AppDelegate.swift in Sources */,
 				E898F530274CD3B000D05746 /* SceneDelegate.swift in Sources */,
+				E898F545274CD66100D05746 /* AlertListCell.swift in Sources */,
+				E898F548274CD7D300D05746 /* Alert.swift in Sources */,
+				E898F542274CD4AF00D05746 /* AlertListViewController.swift in Sources */,
+				E83455A4274D0673002A47D3 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
