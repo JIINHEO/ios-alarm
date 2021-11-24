@@ -8,8 +8,7 @@
 import Foundation
 import UserNotifications
 
-
-class UNUserNotificationCenter {
+extension UNUserNotificationCenter {
     func addNotificationRequest(by alert : Alert) {
         let content = UNMutableNotificationContent()
         content.title = "물마실 시간이에요!!"
@@ -19,5 +18,8 @@ class UNUserNotificationCenter {
         
         let component = Calendar.current.dateComponents([.hour, .minute], from: alert.date)
         let trigger = UNCalendarNotificationTrigger(dateMatching: component, repeats: alert.isOn)
+        let requst = UNNotificationRequest(identifier: alert.id, content: content, trigger: trigger)
+        
+        self.add(requst, withCompletionHandler: nil)
     }
 }

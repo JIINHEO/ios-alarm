@@ -69,16 +69,16 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJj-yQ-hj2">
-                                <rect key="frame" x="20" y="168" width="30" height="21"/>
+                                <rect key="frame" x="50" y="168" width="30" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="Tso-Lu-bhS">
-                                <rect key="frame" x="241" y="153.5" width="193" height="50"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tso-Lu-bhS">
+                                <rect key="frame" x="184" y="138.5" width="200" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="LTp-L4-Ay2"/>
-                                    <constraint firstAttribute="width" constant="193" id="lqg-RZ-9h8"/>
+                                    <constraint firstAttribute="height" constant="80" id="BCu-sF-bGd"/>
+                                    <constraint firstAttribute="width" constant="200" id="QgV-ck-9h3"/>
                                 </constraints>
                                 <locale key="locale" localeIdentifier="ko_KR"/>
                             </datePicker>
@@ -86,13 +86,13 @@
                         <viewLayoutGuide key="safeArea" id="KKq-po-xuW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Tso-Lu-bhS" firstAttribute="trailing" secondItem="KKq-po-xuW" secondAttribute="trailing" constant="20" id="9fW-gf-YlO"/>
-                            <constraint firstItem="Tso-Lu-bhS" firstAttribute="centerY" secondItem="aJj-yQ-hj2" secondAttribute="centerY" id="Kf0-Sq-dWH"/>
                             <constraint firstItem="DE7-L2-VjJ" firstAttribute="top" secondItem="KKq-po-xuW" secondAttribute="top" id="Q4f-WJ-cTm"/>
                             <constraint firstItem="DE7-L2-VjJ" firstAttribute="trailing" secondItem="KKq-po-xuW" secondAttribute="trailing" id="RAG-28-dd5"/>
+                            <constraint firstItem="Tso-Lu-bhS" firstAttribute="centerY" secondItem="aJj-yQ-hj2" secondAttribute="centerY" id="SIx-Hk-Qeh"/>
                             <constraint firstItem="aJj-yQ-hj2" firstAttribute="top" secondItem="DE7-L2-VjJ" secondAttribute="bottom" constant="80" id="eez-ov-mGq"/>
-                            <constraint firstItem="aJj-yQ-hj2" firstAttribute="leading" secondItem="KKq-po-xuW" secondAttribute="leading" constant="20" id="n7Q-ZO-xch"/>
+                            <constraint firstItem="aJj-yQ-hj2" firstAttribute="leading" secondItem="KKq-po-xuW" secondAttribute="leading" constant="50" id="n7Q-ZO-xch"/>
                             <constraint firstItem="DE7-L2-VjJ" firstAttribute="leading" secondItem="KKq-po-xuW" secondAttribute="leading" id="ouV-m0-M9o"/>
+                            <constraint firstItem="KKq-po-xuW" firstAttribute="trailing" secondItem="Tso-Lu-bhS" secondAttribute="trailing" constant="30" id="yha-si-gSx"/>
                         </constraints>
                     </view>
                     <connections>
